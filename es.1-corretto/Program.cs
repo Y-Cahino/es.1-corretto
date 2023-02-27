@@ -16,7 +16,7 @@ namespace es._1_corretto
             }
             else if(x>y)
             {
-                Console.WriteLine("L'ordine esatto è:"+y+x);
+                Console.WriteLine("L'ordine esatto è:"+y+" "+x);
             }
         }
         static void Main(string[] args)
@@ -25,6 +25,7 @@ namespace es._1_corretto
             int x=int.Parse(Console.ReadLine());
             Console.WriteLine("Inserire secondo numero");
             int y=int.Parse(Console.ReadLine());
+            compara(x, y);
         }
     }
 }
